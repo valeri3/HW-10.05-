@@ -1,0 +1,49 @@
+/* resume.component.css */
+.resume {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: white;
+  border-radius: 8px;
+}
+
+.resume-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+h1, h2 {
+  color: #0d6c56;
+  text-align: center;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+a {
+  color: #219176;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

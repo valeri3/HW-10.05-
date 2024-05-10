@@ -1,0 +1,26 @@
+<div class="resume">
+  <img src="{{ resume[0].photoUrl }}" alt="Фото" class="resume-photo">
+  <h1>{{ resume[0].fullName }}</h1>
+  <p><strong>Email:</strong> {{ resume[0].email }}</p>
+  <p><strong>Телефон:</strong> {{ resume[0].phone }}</p>
+  <p><strong>Город:</strong> {{ resume[0].city }}</p>
+  <h2>Опыт работы</h2>
+  <p>{{ resume[0].experience }}</p>
+  <h2>Навыки</h2>
+  <ul>
+    <li>{{ resume[0].skills[0] }}</li>
+    <li>{{ resume[0].skills[1] }}</li>
+    <li>{{ resume[0].skills[2] }}</li>
+    <li>{{ resume[0].skills[3] }}</li>
+    <li>{{ resume[0].skills[4] }}</li>
+  </ul>
+  <h2>Сертификаты</h2>
+  <ul>
+    <li>{{ resume[0].certifications[0] }}</li>
+    <li>{{ resume[0].certifications[1] }}</li>
+  </ul>
+  <h2>Ссылки</h2>
+  <p><a href="{{ resume[0].links.github }}" target="_blank">GitHub</a></p>
+  <p><a href="{{ resume[0].links.linkedin }}" target="_blank">LinkedIn</a></p>
+  <p><a href="{{ resume[0].links.twitter }}" target="_blank">Twitter</a></p>
+</div>
